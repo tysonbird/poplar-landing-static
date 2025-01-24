@@ -47,3 +47,9 @@
     margin-top: 50px;
     max-width: 450px;
 }
+
+@supports (height: 100dvh) {
+    .poplar-landing {
+      height: 100dvh;
+    }
+  }
